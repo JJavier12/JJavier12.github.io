@@ -38,6 +38,15 @@ html {
 	background: #3F60A5;
 }
 
+.icon-mail4{
+	background: #ff0080;
+}
+.icon-google-plus3{
+	background: #ff0000;
+}
+.icon-linkedin{
+	background: #8080ff;
+}
 .icon:first-child {
 	border-radius: 1rem 0 0 0;
 }
