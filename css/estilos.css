@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body {
+
+      background-image:url('/images/fon.jpg');
+      background-color: #fef2b5;
+}
+#cabecera
+{
+    height:150px;
+    background-color:#bbebf5;
+    color:white;
+    border:1px dashed #A64E06;
+    box-shadow:0px 0px 10px #000;
+    position:relative;
+    z-index:2;
+}
+#contenidoCabecera
+{
+    width:960px;
+    margin:auto;
+}
+#barraHorizontal
+{
+    height:40px;
+    background-color:#bbebf5;
+    border-radius:0px 0px 10px 10px;
+    box-shadow:0px 0px 10px #000 inset;
+    text-align:center;
+      
+}
+   
+#logotipo
+{
+    width:40%;
+    float:left;
+    text-align:center;
+    margin-top:5px;
+    
+}
+   #logotipo > img
+   {
+       box-shadow: 0px 0px 5px #000;
+       color:#A64E06;
+       text-decoration:none;
+
+   }
+
+#titulo
+{
+    width:37%;
+    float:left;
+    text-shadow:2px 2px 3px #000;
+    margin-right: 32px;
+    margin-left: 0px;
+}
+  #titulo > h1
+  {
+      margin-top:12px;
+    width: 605px;
+    margin-left: 0px;
+}
+  #titulo > h2
+  {
+      margin-bottom:0;
+  }
+#bajo
+{
+    width:1000px;
+    margin:auto;
+    background-color:#fef2b5;
+    border-radius:0px 0px 20px 20px;
+    overflow:auto;
+    box-shadow: 0px 0px 10px #000;
+
+
+}
+
+#columnIzq, #columnDer
+{
+    float:left;
+    width:20%;
+    min-height:500px;
+}
+   #columnDer > div
+   {
+       width:80%;
+       margin: 20px auto;
+       border-radius:20px;
+       border:1px dashed #A64E06;
+       padding:5px;
+       text-align:center;
+       
+   }
+
+#columnCentro 
+{
+    float:left;
+    width:60%;
+    min-height:500px;
+    background-color:white;
+    box-shadow:0px 0px 5px #000 inset;
+
+}
+#pie
+{
+    height:30px;
+    background-color:#f7abe8;
+    border-radius: 0px 0px 20px 20px;
+    clear:both;
+    box-shadow:0px 0px 5px #000 inset;
+    color:white;
+    text-align:center;
+    padding-top:5px;
+
+
+
+}
