@@ -1,16 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link rel="stylesheet" href="css/estilos.css">
-<link rel="stylesheet" href="ifonts/font.css">
-<link rel="stylesheet" href="css/main.css">
 
+<head>
+  <title>Cajamarca Turistica</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="ifonts/font.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
- <div class="social-bar">
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Conociendo  <span class="logo_colour"> Cajamarca</span></a></h1>
+          <h2>Echa un vistazo a las actividades del departamento </h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="examples.html">Actividades Industriales</a></li>
+          <li><a href="page.html">Actividades Agrícolas</a></li>
+          <li><a href="another_page.html">Actividades Ganaderas</a></li>
+          <li><a href="contact.html">Contactanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-bar">
     <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
     <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
     <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
@@ -18,32 +41,8 @@
     <a href="https://login.live.com/"  class="icon icon-mail4" target="_blank"></a>
     <a href="https://www.google.com/intl/es/gmail/about/#"  class=" icon icon-google-plus3" target="_blank"></a>
     <a href="https://pe.linkedin.com/" class=" icon icon-linkedin" target="_blank"></a>
-  </div>
-  <form id="form1" runat="server">
-    <div>
-        <div id="cabecera">
-            <div id="contenidoCabecera">
-                <div id="barraHorizontal">
-                 
-                        <div class="w3-bar w3-border w3-light-grey">
-  <a href="#" class="w3-bar-item w3-button"><span class="icon-user-tie"></span>INICIO</a>
-  <a href="#" class="w3-bar-item w3-button"><span class="icon-point-right"></span>INDUSTRIALES</a>
-  <a href="#" class="w3-bar-item w3-button"><span class="icon-point-right"></span>AGRICOLAS</a>
-  <a href="#" class="w3-bar-item w3-button"><span class="icon-point-right"></span>GANADERAS</a>
-</div>
-
-                </div>
-               
-                <div id="titulo">
-                   
-               
-                </div>
-
-
-            </div>
-
-        </div>
-        <div id="bajo">
+   </div>
+   <div id="bajo">
             <div id="columnIzq">
                
            <ul>
@@ -64,7 +63,7 @@
             <div id="columnDer"> 
                 <div id="paginaventas ">
                     <span><span class="icon-point-right"></span>Regresar a la pagina Principal</span>
-                    <li><a href="https://jjavier12.github.io/">Mi Pagina Personal</a></li>
+                    <li><a href="index.html">Mi Pagina Personal</a></li>
 
                 </div>
                 <div id="TituloRedes">
@@ -79,13 +78,9 @@
                     <img src="imag/logoEscuela.png" alt="logo MTW" />
                 </div>
             </div>
-            <div id="pie">
+             <div id="pie">
                 <span>©opyright / Derecho de Autor - 2017 "Javier Marin Rubio"</span>
             </div>
-
-        </div>
-       
-    </div>
-    </form>
+      
 </body>
 </html>
