@@ -33,6 +33,16 @@ body {
        text-align:center;
        
    }
+    #columnIzq > div
+   {
+       width:80%;
+       margin: 20px auto;
+       border-radius:20px;
+       border:1px dashed #A64E06;
+       padding:5px;
+       text-align:center;
+       
+   }
 
 #columnCentro 
 {
